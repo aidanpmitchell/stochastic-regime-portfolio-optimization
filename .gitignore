@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Quarto render output
+.quarto/
+
+# VS Code settings (optional)
+.vscode/
+
+# Data files you may not want tracked
+# data/raw/
+# data/processed/
+
+# Generated files
+*.html
