@@ -1,0 +1,11 @@
+{
+    "model": "GaussianHMM",
+    "n_states": 3,
+    "features": [
+        "SPY_return",
+        "SPY_volatility"
+    ],
+    "volatility_window": 20,
+    "random_state": 42,
+    "covariance_type": "full"
+}
