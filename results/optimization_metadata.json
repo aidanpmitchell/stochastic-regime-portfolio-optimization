@@ -1,0 +1,12 @@
+{
+    "risk_free_rate": 0.036,
+    "n_portfolios": 50000,
+    "random_seed": 123,
+    "assets": [
+        "EFA",
+        "GLD",
+        "SPY",
+        "TLT",
+        "VNQ"
+    ]
+}
