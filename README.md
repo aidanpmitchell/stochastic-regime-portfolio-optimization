@@ -9,26 +9,6 @@ This project explores how stochastic processes and portfolio optimization can be
 - Solve mean-variance portfolio optimization problems
 - Backtest dynamic allocation strategies across market regimes
 
-## Tools
-
-- Python
-- NumPy
-- Pandas
-- Matplotlib
-- SciPy
-- CVXPY
-- Jupyter
-- Quarto
-- Git / GitHub
-
-## Project Structure
-
-- `data/` raw and processed market data
-- `notebooks/` exploratory analysis and development notebooks
-- `src/` reusable Python modules
-- `quarto_site/` polished write-up and project website
-- `figures/` saved charts and visuals
-
 ## Status
 
 Project setup in progress.
