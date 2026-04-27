@@ -1,0 +1,27 @@
+{
+    "target": "next_month_hmm_regime",
+    "feature_source": "FRED",
+    "feature_lag_months": 1,
+    "best_model": "Random_Forest",
+    "model_selection_metric": "log_loss",
+    "regime_order": [
+        "Bull",
+        "Neutral",
+        "Crisis"
+    ],
+    "feature_columns": [
+        "unemployment_rate",
+        "unemployment_change_3m",
+        "inflation_yoy",
+        "inflation_3m_annualized",
+        "fed_funds_rate",
+        "industrial_production_yoy",
+        "payrolls_yoy",
+        "consumer_sentiment",
+        "consumer_sentiment_change_3m",
+        "term_spread",
+        "credit_spread",
+        "housing_starts_yoy"
+    ],
+    "min_training_months": 60
+}

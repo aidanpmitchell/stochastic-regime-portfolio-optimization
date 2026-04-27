@@ -1,0 +1,12 @@
+{
+    "best_macro_model": "Random_Forest",
+    "allocation_method": "probability_weighted_regime_moments",
+    "optimizer": "long_only_max_sharpe",
+    "regime_order": [
+        "Bull",
+        "Neutral",
+        "Crisis"
+    ],
+    "min_regime_observations": 40,
+    "min_macro_blend_observations": 40
+}
