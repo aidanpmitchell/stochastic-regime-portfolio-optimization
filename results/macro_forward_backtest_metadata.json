@@ -1,6 +1,16 @@
 {
-    "best_macro_model": "Random_Forest",
+    "probability_model": "Transition_Probability",
+    "best_macro_model": "SVC_RBF",
+    "legacy_forward_strategy_name": "Macro_Forward",
     "allocation_method": "probability_weighted_regime_moments",
+    "hmm_label_source": "point_in_time_refit_per_rebalance",
+    "hmm_refit_frequency": "monthly",
+    "hmm_training_window": "expanding",
+    "hmm_min_training_days": 750,
+    "hmm_random_states": [
+        42
+    ],
+    "hmm_max_iter": 300,
     "optimizer": "long_only_max_sharpe",
     "regime_order": [
         "Bull",
@@ -8,5 +18,5 @@
         "Crisis"
     ],
     "min_regime_observations": 40,
-    "min_macro_blend_observations": 40
+    "min_probability_blend_observations": 40
 }
