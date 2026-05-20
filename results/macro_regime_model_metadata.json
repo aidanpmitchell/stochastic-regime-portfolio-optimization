@@ -1,5 +1,17 @@
 {
     "target": "next_month_hmm_regime",
+    "target_label_source": "point_in_time_walk_forward_hmm",
+    "hmm_refit_frequency": "monthly",
+    "hmm_training_window": "expanding",
+    "hmm_min_training_days": 750,
+    "hmm_random_states": [
+        42
+    ],
+    "hmm_max_iter": 300,
+    "hmm_features": [
+        "SPY_return",
+        "SPY_volatility_20d"
+    ],
     "feature_source": "FRED",
     "feature_lag_months": 1,
     "best_model": "Random_Forest",
