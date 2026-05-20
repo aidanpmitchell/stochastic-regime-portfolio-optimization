@@ -1,4 +1,4 @@
 ,Pred_Bull,Pred_Neutral,Pred_Crisis
-Actual_Bull,18,14,6
-Actual_Neutral,15,8,9
-Actual_Crisis,9,5,12
+Actual_Bull,0,32,6
+Actual_Neutral,0,30,2
+Actual_Crisis,0,8,18

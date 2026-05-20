@@ -14,7 +14,9 @@
     ],
     "feature_source": "FRED",
     "feature_lag_months": 1,
-    "best_model": "Random_Forest",
+    "best_model": "Transition_Probability",
+    "best_macro_model": "SVC_RBF",
+    "macro_interpretability_model": "Extra_Trees",
     "model_selection_metric": "log_loss",
     "regime_order": [
         "Bull",
@@ -34,6 +36,22 @@
         "term_spread",
         "credit_spread",
         "housing_starts_yoy"
+    ],
+    "benchmark_models": [
+        "Dummy_Prior",
+        "Persistence",
+        "Smoothed_Persistence",
+        "Transition_Probability"
+    ],
+    "machine_learning_models": [
+        "Logistic_Regression",
+        "Random_Forest",
+        "Extra_Trees",
+        "Gradient_Boosting",
+        "Hist_Gradient_Boosting",
+        "Gaussian_NB",
+        "KNN",
+        "SVC_RBF"
     ],
     "min_training_months": 60
 }

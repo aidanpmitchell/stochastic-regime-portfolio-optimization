@@ -1,0 +1,13 @@
+feature,importance
+inflation_yoy,0.2110591856661319
+consumer_sentiment,0.11195107871070076
+fed_funds_rate,0.10923618107931236
+term_spread,0.09953632074200826
+unemployment_rate,0.09746965777332749
+inflation_3m_annualized,0.09450732354212296
+payrolls_yoy,0.06627052313320135
+industrial_production_yoy,0.05298629540104
+credit_spread,0.05159020697577502
+housing_starts_yoy,0.038693361374567845
+unemployment_change_3m,0.03782754178754401
+consumer_sentiment_change_3m,0.028872323814268
